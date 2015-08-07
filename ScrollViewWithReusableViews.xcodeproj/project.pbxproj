@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		094877A41B742054005E0D24 /* LineUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094877A31B742054005E0D24 /* LineUITextField.swift */; };
+		094877A61B742078005E0D24 /* LineUITextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094877A51B742078005E0D24 /* LineUITextField.xib */; };
 		09F4CAD01B73F98D00922F4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F4CACF1B73F98D00922F4D /* AppDelegate.swift */; };
 		09F4CAD21B73F98D00922F4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F4CAD11B73F98D00922F4D /* ViewController.swift */; };
 		09F4CAD51B73F98D00922F4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F4CAD31B73F98D00922F4D /* Main.storyboard */; };
 		09F4CAD71B73F98D00922F4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F4CAD61B73F98D00922F4D /* Images.xcassets */; };
 		09F4CADA1B73F98D00922F4D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09F4CAD81B73F98D00922F4D /* LaunchScreen.xib */; };
 		09F4CAE61B73F98D00922F4D /* ScrollViewWithReusableViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F4CAE51B73F98D00922F4D /* ScrollViewWithReusableViewsTests.swift */; };
+		09F4CAF01B73F9DA00922F4D /* PinUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F4CAEF1B73F9DA00922F4D /* PinUIView.swift */; };
+		09F4CAF21B73F9EB00922F4D /* PinUIView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09F4CAF11B73F9EB00922F4D /* PinUIView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		094877A31B742054005E0D24 /* LineUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineUITextField.swift; sourceTree = "<group>"; };
+		094877A51B742078005E0D24 /* LineUITextField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LineUITextField.xib; sourceTree = "<group>"; };
 		09F4CACA1B73F98D00922F4D /* ScrollViewWithReusableViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewWithReusableViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F4CACE1B73F98D00922F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09F4CACF1B73F98D00922F4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +42,8 @@
 		09F4CADF1B73F98D00922F4D /* ScrollViewWithReusableViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewWithReusableViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F4CAE41B73F98D00922F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09F4CAE51B73F98D00922F4D /* ScrollViewWithReusableViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewWithReusableViewsTests.swift; sourceTree = "<group>"; };
+		09F4CAEF1B73F9DA00922F4D /* PinUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinUIView.swift; sourceTree = "<group>"; };
+		09F4CAF11B73F9EB00922F4D /* PinUIView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PinUIView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +88,13 @@
 				09F4CACF1B73F98D00922F4D /* AppDelegate.swift */,
 				09F4CAD11B73F98D00922F4D /* ViewController.swift */,
 				09F4CAD31B73F98D00922F4D /* Main.storyboard */,
+				09F4CAEF1B73F9DA00922F4D /* PinUIView.swift */,
 				09F4CAD61B73F98D00922F4D /* Images.xcassets */,
 				09F4CAD81B73F98D00922F4D /* LaunchScreen.xib */,
 				09F4CACD1B73F98D00922F4D /* Supporting Files */,
+				09F4CAF11B73F9EB00922F4D /* PinUIView.xib */,
+				094877A31B742054005E0D24 /* LineUITextField.swift */,
+				094877A51B742078005E0D24 /* LineUITextField.xib */,
 			);
 			path = ScrollViewWithReusableViews;
 			sourceTree = "<group>";
@@ -193,7 +205,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				09F4CAD51B73F98D00922F4D /* Main.storyboard in Resources */,
+				094877A61B742078005E0D24 /* LineUITextField.xib in Resources */,
 				09F4CADA1B73F98D00922F4D /* LaunchScreen.xib in Resources */,
+				09F4CAF21B73F9EB00922F4D /* PinUIView.xib in Resources */,
 				09F4CAD71B73F98D00922F4D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +226,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09F4CAF01B73F9DA00922F4D /* PinUIView.swift in Sources */,
 				09F4CAD21B73F98D00922F4D /* ViewController.swift in Sources */,
 				09F4CAD01B73F98D00922F4D /* AppDelegate.swift in Sources */,
+				094877A41B742054005E0D24 /* LineUITextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +425,7 @@
 				09F4CAEB1B73F98D00922F4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09F4CAEC1B73F98D00922F4D /* Build configuration list for PBXNativeTarget "ScrollViewWithReusableViewsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +434,7 @@
 				09F4CAEE1B73F98D00922F4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
